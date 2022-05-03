@@ -16,7 +16,7 @@ export default function handler(req, res) {
         }
         for (let i = 0; i < amount; i++) {
             const discount = {
-                imageLink: faker.image.avatar(),
+                imageLink: faker.image.cats(),
                 title: faker.commerce.productName(),
                 subTitle:faker.commerce.productDescription(),
                 qrCode:faker.image.cats()
