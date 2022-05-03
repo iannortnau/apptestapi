@@ -18,7 +18,7 @@ export default function handler(req, res) {
             const discount = {
                 imageLink: faker.image.cats(),
                 title: faker.commerce.productName(),
-                subTitle:faker.commerce.productDescription(),
+                description:faker.commerce.productDescription(),
                 qrCode:faker.image.cats()
             }
             data.discounts.push(discount);
