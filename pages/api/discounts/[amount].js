@@ -19,7 +19,7 @@ export default function handler(req, res) {
                 imageLink: faker.image.imageUrl(60, 60, 'cat', true, true),
                 title: faker.commerce.productName(),
                 description:faker.commerce.productDescription(),
-                qrCode:faker.image.cats()
+                qrCode:faker.image.imageUrl(60, 60, 'cat', true, true)
             }
             data.discounts.push(discount);
         }
